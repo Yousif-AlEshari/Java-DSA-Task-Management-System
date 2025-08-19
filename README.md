@@ -36,7 +36,6 @@ A console-based **Task Management System (TMS)** built from scratch using **cust
 
 ## Project Structure
 
-.
 ├── Main.java # CLI entry point for the Task Management System
 ├── TMS.java # Core TMS logic & user interactions
 ├── Task.java # Task model (name, id, dueDate, urgent, category, complete)
@@ -212,7 +211,7 @@ When you run java Main, you’ll see a menu like:
 
     - printOrderedTasks...() sorts the queue and then dequeues all items to print.
 
-The master taskList remains intact, so tasks aren’t lost, but the auxiliary “view” structures are cleared after each print.
+    The master taskList remains intact, so tasks aren’t lost, but the auxiliary “view” structures are cleared after each print.
 
 2) Input format
     Due date must be entered as yyyy-MM-dd (e.g., 2025-08-19).
