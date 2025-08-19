@@ -36,23 +36,21 @@ A console-based **Task Management System (TMS)** built from scratch using **cust
 
 ## Project Structure
 
-├── Main.java # CLI entry point for the Task Management System
-├── TMS.java # Core TMS logic & user interactions
-├── Task.java # Task model (name, id, dueDate, urgent, category, complete)
-├── Node.java # Node<Task> for linked structures
-├── LinkedList.java # Custom singly linked list of Task
-├── QueueLinkedList.java # Custom queue of Task (linked)
-│
-├── EnhancedSelectionSort.java # Bidirectional selection sort demo
-├── MergeSort.java # Array-based merge sort demo
-├── ProfilingExample.java # Simple timing harness for merge sort
-├── AmortizedAnalysisExample.java # ArrayList growth amortized O(1) demo
-│
-├── BellmanFordShortestPath.java # Shortest paths with negative weights support
-└── DijkstraShortestPath.java # Shortest paths for non-negative weights (adjacency matrix)
-
----
-
+```text
+.
+├── Main.java                      # CLI entry point for the Task Management System
+├── TMS.java                       # Core TMS logic & user interactions
+├── Task.java                      # Task model (name, id, dueDate, urgent, category, complete)
+├── Node.java                      # Node<Task> for linked structures
+├── LinkedList.java                # Custom singly linked list of Task
+├── QueueLinkedList.java           # Custom queue of Task (linked)
+├── EnhancedSelectionSort.java     # Bidirectional selection sort demo
+├── MergeSort.java                 # Array-based merge sort demo
+├── ProfilingExample.java          # Simple timing harness for merge sort
+├── AmortizedAnalysisExample.java  # ArrayList growth amortized O(1) demo
+├── BellmanFordShortestPath.java   # Shortest paths with negative weights support
+└── DijkstraShortestPath.java      # Shortest paths for non-negative weights (adjacency matrix)
+```
 ## Requirements
 - **Java 8+** (uses `java.time.LocalDate`)
 - Any OS with a JDK installed (Windows, macOS, Linux)
